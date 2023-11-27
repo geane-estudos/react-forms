@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import Form from './Form';
 import Select from './Select';
 import Radio from './Radio';
+import Check from './Check';
+import MultiCheck from './MultiCheck';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +17,8 @@ root.render(
     <Form />
     <Select />
     <Radio />
+    <Check />
+    <MultiCheck />
   </React.StrictMode>
 );
 
