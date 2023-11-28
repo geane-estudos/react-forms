@@ -9,6 +9,7 @@ import Select from './Select';
 import Radio from './Radio';
 import Check from './Check';
 import MultiCheck from './MultiCheck';
+import Validate from './Validate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <Radio />
     <Check />
     <MultiCheck />
+    <Validate />
   </React.StrictMode>
 );
 
