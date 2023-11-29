@@ -10,10 +10,12 @@ import Radio from './Radio';
 import Check from './Check';
 import MultiCheck from './MultiCheck';
 import Validate from './Validate';
+import Challenge from './Challenge';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Challenge />
     <App />
     <Form />
     <Select />
